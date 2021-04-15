@@ -527,6 +527,7 @@ wbr{}
 .HEADER-P{
     margin-top: 3rem;
     margin-bottom: 3rem;
+    display: inline-block;
     text-align: center;
     line-height: 1.4;
     font-family: 'Montserrat', sans-serif;
@@ -534,6 +535,23 @@ wbr{}
     font-weight: 300;
     color: #fff;
     word-break: break-word;
+}
+.HEADER-P-A{
+    line-height: 1.4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.HEADER-P-A:hover{
+    color: #beddca;
+    cursor: pointer;
+}
+.HEADER-P-A:visited{
+    color: #fff;
+}
+.HEADER-P-A:visited:hover{
+    color: #beddca;
 }
 .HEADER-FORM{
     width: 100%;
@@ -550,6 +568,7 @@ wbr{}
     border: 0;
     border-color: transparent;
     background-color: rgb(60, 170, 247);
+    cursor: pointer;
 }
 .HEADER-FORM-BUTTON-P{
     justify-content: center;

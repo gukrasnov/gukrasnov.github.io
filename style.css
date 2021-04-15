@@ -1,5 +1,6 @@
 :root{
     --width-rows: 100%;
+    --max-width: 1920px;
     --padding: 3rem;
     --padding-top: 3rem;
     --padding-bottom: 3rem;
@@ -493,6 +494,10 @@ wbr{}
     font-size: 2.1rem;
     color: #fff;
 }
+.MENU-UL-1-LI-A:hover,
+.MENU-UL-3-LI-A:hover{
+    color: #beddca;
+}
 /*----- /MENU -----*/
 
 
@@ -501,6 +506,7 @@ wbr{}
 .WRAP-HEADER{
     padding: var(--padding);
     width: var(--width-rows);
+    max-width: var(--max-width);
     height: auto;
     min-height: 61.0rem;
     background-image: url(graph/%D0%9B%D1%8E%D0%B1%D0%B8%D0%BC%D1%8B%D0%B9%20%D0%9A%D0%BE%D1%82-%20%D0%A1%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8C.png);
@@ -508,6 +514,7 @@ wbr{}
     background-attachment: scroll;
     background-size: cover;
     background-color: #99CC99;
+    z-index: 3;
 }
 .HEADER-H1-1-STRONG,
 .HEADER-H1-2-STRONG{
@@ -560,6 +567,7 @@ wbr{}
 .WRAP-MODE{
     padding: var(--padding);
     width: var(--width-rows);
+    max-width: var(--max-width);
     height: auto;
     min-height: 37.7rem;
 }
@@ -837,6 +845,7 @@ wbr{}
 .WRAP-WORK{
     padding: var(--padding);
     width: var(--width-rows);
+    max-width: var(--max-width);
     height: auto;
     min-height: 61.0rem;
     background-image: url(graph/background30.png);
@@ -922,6 +931,7 @@ wbr{}
 .WRAP-NEWS{
     padding: var(--padding);
     width: var(--width-rows);
+    max-width: var(--max-width);
     height: auto;
     min-height: 61.0rem;
 }
@@ -1001,6 +1011,7 @@ wbr{}
 .WRAP-INFO{
     padding: var(--padding);
     width: var(--width-rows);
+    max-width: var(--max-width);
     height: auto;
     min-height: 61.0rem;
     background-image: url(graph/background30.png);
@@ -1045,6 +1056,7 @@ wbr{}
 .WRAP-MOTIVATION{
     padding: var(--padding);
     width: var(--width-rows);
+    max-width: var(--max-width);
     height: auto;
     min-height: 61.0rem;
 }
@@ -1105,6 +1117,7 @@ wbr{}
 .WRAP-CONTACTS{
     padding: var(--padding);
     width: var(--width-rows);
+    max-width: var(--max-width);
     height: auto;
     min-height: 61.0rem;
     background-image: url(graph/background30.png);
@@ -1211,3 +1224,26 @@ wbr{}
     color: #333;
 }
 /*----- /FOOTER -----*/
+
+
+
+
+
+/*----- BUTTON-TOP -----*/
+.BUTTON-TOP{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+.SVG-UP{
+    width: 100px;
+    height: 100px;
+    color: #339966;
+}
+.SVG-UP:hover{
+    background-color: #beddca;
+}
+/*----- /BUTTON-TOP -----*/

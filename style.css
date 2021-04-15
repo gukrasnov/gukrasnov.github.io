@@ -19,20 +19,16 @@
     outline: none;
 }
 a:link{
-    color: auto;
     text-decoration: none;
     cursor: pointer;
 }
 a:visited{
-    color: auto;
     text-decoration: none;
     cursor: pointer;
 }
 a:link:active{
-    color: auto;
 }
 a:visited:active{
-    color: auto;
 }
 abbr{}
 address{
@@ -542,6 +538,7 @@ wbr{}
     font-size: 2.4rem;
     font-weight: 300;
     text-decoration: underline;
+    color: #fff;
 }
 .HEADER-P-A:hover{
     color: #beddca;
@@ -549,9 +546,6 @@ wbr{}
 }
 .HEADER-P-A:visited{
     color: #fff;
-}
-.HEADER-P-A:visited:hover{
-    color: #beddca;
 }
 .HEADER-FORM{
     width: 100%;
